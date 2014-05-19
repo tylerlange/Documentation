@@ -36,7 +36,7 @@ params Supported param keys: ['floor', 'ceiling', 'sinceDate',
     def eventsBetweenPeriod = device1.eventsBetween(twoDaysAgo,yesterday)
 
 Example
-=======
+-------
 
 This particular example queries events in the past four seconds, and
 determines whether a "double tab" happened, to trigger light switches.
