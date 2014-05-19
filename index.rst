@@ -24,7 +24,7 @@ SmartApp Developer's Guide
 --------------------------
 
 .. toctree::
-	:maxtepth: 3
+	:maxdepth: 3
 	
 	smartapp-developers-guide/index
 
