@@ -18,7 +18,15 @@ Introduction
    
    introduction/index
 
+.. _smartapp_developers_guide:
 
+SmartApp Developer's Guide
+--------------------------
+
+.. toctree::
+	:maxtepth: 3
+	
+	smartapp-developers-guide/index
 
 Indices and tables
 ==================
