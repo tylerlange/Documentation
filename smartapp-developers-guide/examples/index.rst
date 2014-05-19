@@ -1,5 +1,5 @@
-SmartApp Developer's Guide Examples
-===================================
+Examples
+========
 
 .. toctree::
    :maxdepth: 3
