@@ -10,10 +10,9 @@ If your web service takes longer than this to run, then your request
 will timeout.
 
 Here are the helper methods available to you with a few examples below.
-httpDelete, httpGet, httpHead, httpPost, httpPostJson, httpPut,
-httpPutJson 
 
-..(TODO LINK OUT)
+**httpDelete**, **httpGet**, **httpHead**, **httpPost**, **httpPostJson**, **httpPut**,
+**httpPutJson** 
 
 httpGet Example
 ---------------

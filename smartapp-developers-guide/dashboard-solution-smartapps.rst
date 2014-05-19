@@ -27,20 +27,14 @@ They allow you to swipe through various panes.
 | **Tiles**
 | There are four types of tiles that can be included in cards 
 
-.. (TODO CHECK THIS).
-
 -  stateTile: Shows current state of events 
-.. TODO add link
 -  eventTile: Shows past events 
-.. TODO add link
 -  exploreTile: Shows static photo with an optional link 
-.. TODO add link.
    Note that when creating an exploreTile it references our personal
    CDN. You will need to store your files externally to be able to
    utilize them.
 -  smartAppGroupTile: Allows you to change the states of a thing on and
    off 
-.. TODO add link
 
    cards { card(name:"Right Now", sortable:false) { tiles { stateTile {
    } } } card("Recently") { tiles { eventTile { } } } }
@@ -71,7 +65,6 @@ child apps, like in this example.
 
 This code initializes one app by default, and conditionally initializes
 another two if there is a camera selected. 
-.. TODO Link Method
 
 When initializing the app you will need to define the namespace. Use
 your github username followed by the name of your SmartApp, like this:
@@ -132,8 +125,6 @@ solution SmartApps.
 ::
 
     sendEvent(linkText:app.label, descriptionText:descriptionText, eventType:"SOLUTION_EVENT", displayed: false, name:"summary", value:value, data: getSolutionEventData(value))
-
-.. TODO this should be added to the method library itself.
 
 sendEvent can take the following parameters:
 

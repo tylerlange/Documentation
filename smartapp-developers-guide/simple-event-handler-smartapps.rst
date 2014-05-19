@@ -57,8 +57,6 @@ for the attribute or the event as a whole.
 
 **String latestValue(String attribute)** 
 
-.. TODO add link
-
 Returns the latest value for a specific attribute of the device. For
 example, if you wanted to know whether a switch was on or off.
 
@@ -69,7 +67,6 @@ example, if you wanted to know whether a switch was on or off.
     }
 
 **String latestState(String attribute)** 
-.. TODO Link Method
 
 Returns the most recent event for the specified attribute, which
 provides you meta information along with the latest value. For example,
