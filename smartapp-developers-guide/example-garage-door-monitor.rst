@@ -1,5 +1,5 @@
-Garage Door Monitor
--------------------
+Example: Garage Door Monitor
+============================
 
 ::
 

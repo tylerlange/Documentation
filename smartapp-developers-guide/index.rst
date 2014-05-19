@@ -13,4 +13,5 @@ SmartApp Developer's Guide
    calling-web-services-in-smartapps
    querying-events-in-smartapps
    generating-events-in-smartapps
-   examples/index
+   example-bon-voyage
+   example-garage-door-monitor

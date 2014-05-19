@@ -1,5 +1,5 @@
-Bon Voyage
-----------
+Example: Bon Voyage
+===================
 
 ::
 
