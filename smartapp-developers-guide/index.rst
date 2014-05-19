@@ -5,3 +5,4 @@ SmartApp Developer's Guide
    :maxdepth: 3
                
    anatomy-and-life-cycle-of-a-smartapp
+   preferences-and-settings

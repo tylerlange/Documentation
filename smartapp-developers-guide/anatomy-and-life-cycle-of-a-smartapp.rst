@@ -147,4 +147,3 @@ platform before it's deleted. This method is rarely utilized.
       doSomething()
     }
 
-Next Article: `Preferences & Settings ➞ <preferences-&-settings.md>`__
