@@ -12,6 +12,7 @@ will timeout.
 Here are the helper methods available to you with a few examples below.
 httpDelete, httpGet, httpHead, httpPost, httpPostJson, httpPut,
 httpPutJson 
+
 ..(TODO LINK OUT)
 
 httpGet Example
@@ -89,7 +90,3 @@ httpPostJson Example
     httpPostJson(uri: deviceInfo.callbackUrl, path: '',  body: [evt: [deviceId: evt.deviceId, name: evt.name, value: evt.value]]) {
             log.debug "Event data successfully posted"
         }
-
-.. TODO: Not sure how I feel about these examples. Using atomic State,
-	storing username and password in state. Do we have better examples
-	(Philip Grey)

@@ -72,7 +72,6 @@ Example: Bon Voyage
             }
             log.debug "Found ${awayLongEnough.size()} out of ${people.size()} person(s) who were away long enough"
             if (awayLongEnough.size() == people.size()) {
-                // TODO -- uncomment when app label is available
                 //def message = "${app.label} changed your mode to '${newMode}' because everyone left home"
                 def message = "SmartThings changed your mode to '${newMode}' because everyone left home"
                 log.info message
@@ -141,9 +140,9 @@ they'd like. Their choice(s) are then stored in a variable named
       }
 
 The user will also see a section with the title **Change to this mode**.
-The input field type TODO what should this language be of **mode** is
-used, so a dropdown will be populated with all the modes the user has
-set up. There is also a title above the field labeled **Mode?**.
+The input field type of **mode** is used, so a dropdown will be populated 
+with all the modes the user has set up. There is also a title above the field 
+labeled **Mode?**.
 
 ::
 
@@ -237,7 +236,7 @@ Define the threshold for internal use in this method
 
 Defines a collection by using a groovy method called findAll. findAll
 has a closure defined inside it and adds an item to the collection if it
-resolves to true TODO language. In this case, the **people** collection
+resolves to true. In this case, the **people** collection
 is iterated, and a **person** is set. For each person, **presenceState**
 grabs the persons current state. The current state includes extra
 information about their state, which allows us on the next line to get
@@ -256,7 +255,6 @@ If all people have been away long enough
 
 ::
 
-                // TODO -- uncomment when app label is available
                 //def message = "${app.label} changed your mode to '${newMode}' because everyone left home"
                 def message = "SmartThings changed your mode to '${newMode}' because everyone left home"
                 log.info message
@@ -323,7 +321,7 @@ Calls method to see if not just this person, but everyone is away
                     log.debug "starting sequence"
                     runIn(findFalseAlarmThreshold() * 60, "takeAction", [overwrite: false])
 
-We use the method runIn TODO add link, which runs the method
+We use the method **runIn**, which runs the method
 **takeAction** in a specified amount of time, which in this case is the
 return value of the helper method **findFalseAlarmThreshold()**
 multiplied by **60** to convert minutes to seconds. **overwrite: false**

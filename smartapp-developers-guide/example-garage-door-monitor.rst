@@ -40,7 +40,7 @@ Example: Garage Door Monitor
 
         if (latestThreeAxisState) {
             def latestThreeAxisDate = latestThreeAxisState.dateCreated.toSystemDate()
-            def isOpen = Math.abs(latestThreeAxisState.xyzValue.z) > 250 // TODO: Test that this value works in most cases...
+            def isOpen = Math.abs(latestThreeAxisState.xyzValue.z) > 250 
 
             if (isOpen) {
                 def deltaMillis = 1000 * 60 * maxOpenTime

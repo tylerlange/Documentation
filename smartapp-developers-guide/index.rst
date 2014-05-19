@@ -14,4 +14,3 @@ SmartApp Developer's Guide
    querying-events-in-smartapps
    generating-events-in-smartapps
    example-bon-voyage
-   example-garage-door-monitor

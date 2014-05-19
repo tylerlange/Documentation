@@ -27,7 +27,7 @@ They allow you to swipe through various panes.
 | **Tiles**
 | There are four types of tiles that can be included in cards 
 
-..(TODO CHECK THIS).
+.. (TODO CHECK THIS).
 
 -  stateTile: Shows current state of events 
 .. TODO add link

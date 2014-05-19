@@ -56,6 +56,7 @@ When querying attributes, you can either request just the current value
 for the attribute or the event as a whole.
 
 **String latestValue(String attribute)** 
+
 .. TODO add link
 
 Returns the latest value for a specific attribute of the device. For
