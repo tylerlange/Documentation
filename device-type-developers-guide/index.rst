@@ -7,4 +7,4 @@ Device Type Developer's Guide
    overview
    anatomy-of-a-device-type
    standard-device-type-pattern
-   z-wave-primer
+   building-z-wave-device-types/index
