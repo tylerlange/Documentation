@@ -1,4 +1,4 @@
-Building Z-Wave Device Types
+Building Zigbee Device Types
 ============================
 
 .. toctree::

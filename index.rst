@@ -36,6 +36,14 @@ Device Type Developer's Guide
 	
 	device-type-developers-guide/index
 
+Cloud-Connected & LAN-Connected Device Type Developer's Guide
+-------------------------------------------------------------
+
+.. toctree::
+	:maxdepth: 3
+	
+	cloud-and-lan-connected-device-types-developers-guide/index
+
 Search
 ======
 
