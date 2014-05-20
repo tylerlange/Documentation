@@ -28,10 +28,8 @@ SmartApp Developer's Guide
 	
 	smartapp-developers-guide/index
 
-Indices and tables
-==================
+Search
+======
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
