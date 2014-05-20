@@ -47,6 +47,14 @@ SmartApp Web Services Developer's Guide
 	
 	smartapp-web-services-developers-guide/index
 
+Reference Material
+---------------------------------------
+
+.. toctree::
+	:maxdepth: 3
+	
+	reference-material
+
 Search
 ======
 
