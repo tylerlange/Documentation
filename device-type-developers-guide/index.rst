@@ -5,4 +5,6 @@ Device Type Developer's Guide
    :maxdepth: 3
                
    overview
-   
+   anatomy-of-a-device-type
+   standard-device-type-pattern
+   z-wave-primer

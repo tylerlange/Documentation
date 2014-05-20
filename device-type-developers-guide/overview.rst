@@ -1,5 +1,5 @@
-Device Types
-============
+Device Type Overview
+====================
 
 The “things” that are integrated with the SmartThings platform are
 generally referred to as “devices”. And devices are of a specific
@@ -69,60 +69,12 @@ sent down to the device to affect the desired action.
 The table below shows the actual Z-Wave commands that are sent down to a
 Z-Wave switch by the device-type handler.
 
-.. raw:: html
+==============	=================================
+Device Command	Protocol-Specific Command Message
 
-   <table>
-       <tbody>
-           <tr>
-               <td>
-
-Device Command
-
-.. raw:: html
-
-   </td>
-               <td>
-
-Protocol-Specific Command Message
-
-.. raw:: html
-
-   </td>
-           </tr>
-           <tr>
-               <td>
-
-On
-
-.. raw:: html
-
-   </td>
-               <td>
-
-2001FF
-
-.. raw:: html
-
-   </td>
-           </tr>
-           <tr>
-               <td>
-
-Off
-
-.. raw:: html
-
-   </td>
-               <td>
-
-200100
-
-.. raw:: html
-
-   </td>
-           </tr>
-       </tbody>
-   </table>
+On				2001FF
+Off				200100
+==============	=================================
 
 While the function of the device-type handlers is important, where they
 execute is similarly important. Just like SmartApps, device-type
