@@ -1,4 +1,5 @@
-::
+Reference Z-Wave Deice Type::
+
 	metadata {
 		definition (name: "Z-Wave Device Reference", author: "SmartThings") {
 			capability "Actuator"
