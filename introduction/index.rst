@@ -7,4 +7,5 @@ Introduction
    what-is-smartthings
    smartthings-architecture
    smartthings-concepts
-   what-can-developers-do/index.rst 
+   what-can-developers-do/index.rst
+   introduction-to-the-ide/index.rst
