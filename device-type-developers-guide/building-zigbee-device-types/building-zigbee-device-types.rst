@@ -30,6 +30,7 @@ Component	Description
 **0xB04**	Cluster
 **0x50B**	Attribute
 =========	==========
+
 Write
 -----
 
