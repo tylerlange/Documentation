@@ -5,3 +5,5 @@ Building Z-Wave Device Types
    :maxdepth: 2
                
    z-wave-primer
+   building-z-wave-device-types
+   z-wave-device-reference

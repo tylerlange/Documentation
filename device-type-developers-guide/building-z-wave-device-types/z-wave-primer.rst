@@ -6,7 +6,7 @@ application-level standard that you may come in contact with when
 developing device type handlers for Z-Wave devices. If you are already
 familiar with Z-Wave development, you can learn how SmartThings
 integrates with it in `Building Z-Wave Device
-Types <building-z-wave-device-types.md>`__.
+Types <building-z-wave-device-types.rst>`__.
 
 Command Classes
 ---------------
@@ -155,7 +155,4 @@ handler can send
 The hub's node ID is provided to device type handler code in the
 variable ``zwaveHubNodeId``.
 
-`Z Wave Device Example ➞ <z-wave-device-reference.groovy>`__
-
-Next Article: `Building Z Wave Device Types
-➞ <building-z-wave-device-types.md>`__
+`Z Wave Device Example ➞ <z-wave-device-reference.rst>`__
