@@ -21,15 +21,19 @@ Attribute request to read the current state (the active power draw). The
 cluster we are reading here is Electrical Measurement (0xB04) and
 specifically the Active Power Attribute (0x50B).
 
-=========	===========
-Component	Description
-=========	===========
-st rattr	Smart Things Read Attribute
-0x\$\{device.deviceNetworkId\}	Device Network ID
-1			Endpoint Id
-0xB04		Cluster
-0x50B		Attribute
-=========	==========
++-------------------------------+-----------------------------+
+| Component                     | Description                 |
++===============================+=============================+
+|st rattr                       | Smart Things Read Attribute |
++-------------------------------+-----------------------------+
+|0x\$\{device.deviceNetworkId\}	| Device Network ID           |
++-------------------------------+-----------------------------+
+|1                              | Endpoint Id                 |
++-------------------------------+-----------------------------+
+|0xB04                          | Cluster                     |
++-------------------------------+-----------------------------+
+|0x50B                          | Attribute                   |
++-------------------------------+-----------------------------+
 
 Write
 -----
