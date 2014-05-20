@@ -50,60 +50,12 @@ For example, for a Z-Wave compatible on-off switch, the incoming status
 messages used by the device to report an ‘on’ or ‘off’ state are as
 shown below:
 
-.. raw:: html
-
-   <table>
-       <tbody>
-           <tr>
-               <td>
-
-Device Command
-
-.. raw:: html
-
-   </td>
-               <td>
-
-Protocol-Specific Command Message
-
-.. raw:: html
-
-   </td>
-           </tr>
-           <tr>
-               <td>
-
-on
-
-.. raw:: html
-
-   </td>
-               <td>
-
-command: 2003, payload: FF
-
-.. raw:: html
-
-   </td>
-           </tr>
-           <tr>
-               <td>
-
-off
-
-.. raw:: html
-
-   </td>
-           <td>
-
-command: 2003, payload: 00
-
-.. raw:: html
-
-   </td>
-           </tr>
-       </tbody>
-   </table>
+==============	=================================
+Device Command	Protocol-Specific Command Message
+==============	=================================
+on				command: 2003, payload: FF
+off				command: 2003, payload: 00
+==============	=================================
 
 Whereas the device status reported to the data management layer for the
 device is literally just a simple ‘on’ or ‘off’.
