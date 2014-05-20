@@ -28,6 +28,14 @@ SmartApp Developer's Guide
 	
 	smartapp-developers-guide/index
 
+Device Type Developer's Guide
+-----------------------------
+
+.. toctree::
+	:maxdepth: 3
+	
+	device-type-developers-guide/index
+
 Search
 ======
 

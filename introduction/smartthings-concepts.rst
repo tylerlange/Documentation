@@ -103,28 +103,3 @@ Installed SmartApps
 
 An installed SmartApp is an instance of a SmartApp specific to an
 individuals configuration and SmartThings account.
-
-Asynchronous & Eventually Consistent Programming
-------------------------------------------------
-
-When dealing with the physical graph there will always be a delay between when you request something to happen and when it actually happens. There is latency in all networks, but it's especially pronounced when dealing with the physical graph.
-
-To deal with this, the SmartApps platform utilizes asynchronous execution. This means that anytime you execute a command, it doesn't stop everything else from running. This helps everyone's code run the most efficiently.
-
-Our basic methodology towards executing a command, such as turning a light switch on, is "fire and forget". This means that you execute a command, and assume it will turn on in due time, without any sort of follow up.
-
-You cannot be guaranteed that your command has been executed, because another SmartApp could interact with your end device, and change it's state. For example, you might turn a light switch on, but another app might sneak in and turn it off.
-
-If you needed to know if a command was executed, you can subscribe to an event trigged by the command you executed and check it's timestamp to ensure it fired after you told it to. You will, however, still have latency issues to take into consideration, so it's impossible to know the exact current status at any given time.
-
-TODO example
-
-The SmartApps platform follows eventually consistent programming, meaning that responses to a request for a value in SmartApps will eventually be the same, but in the short term they might differ.
-
-**Future State**
-
-In the future, we'd like to move towards providing levels of consistency for the end user, so you could specify how consistent you need your data to be.
-
-Also, as we move some of our logic into the hub, we mau consider allowing blocking methods (synchronous) as they wouldn't weigh down our network as a whole.
-
-[Back to Home](../index.md)
