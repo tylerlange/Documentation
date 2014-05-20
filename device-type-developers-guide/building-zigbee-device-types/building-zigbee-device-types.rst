@@ -24,11 +24,11 @@ specifically the Active Power Attribute (0x50B).
 =========	===========
 Component	Description
 =========	===========
-**st rattr**	Smart Things Read Attribute
-**0x${device.deviceNetworkId}**	Device Network ID
-**1**	Endpoint Id
-**0xB04**	Cluster
-**0x50B**	Attribute
+st rattr	Smart Things Read Attribute
+0x\$\{device.deviceNetworkId\}	Device Network ID
+1			Endpoint Id
+0xB04		Cluster
+0x50B		Attribute
 =========	==========
 
 Write
