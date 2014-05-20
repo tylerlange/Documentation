@@ -154,5 +154,3 @@ handler can send
 `AssociationSet <http://build.smartthings.com/zwave.html#associationV2/associationSet>`__.
 The hub's node ID is provided to device type handler code in the
 variable ``zwaveHubNodeId``.
-
-`Z Wave Device Example ➞ <z-wave-device-reference.html>`__

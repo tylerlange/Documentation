@@ -15,7 +15,7 @@ thing your parse method should do is call ``zwave.parse`` on the
 description string to convert it to a Z-Wave command object. The
 object's class is one of the subclasses of
 ``physicalgraph.zwave.Command`` that can be found in the `Z-Wave Command
-Reference <z-wave-command-reference.html>`__. If the description string
+Reference <http://build.smartthings.com/zwave.html>`__. If the description string
 does not represent a valid Z-Wave command, ``zwave.parse`` will return
 ``null``.
 
@@ -72,9 +72,9 @@ commands you intend to handle:
 Remember that when you use ``createEvent`` to build an event, the
 resulting map must be returned from ``parse`` for the event to be sent.
 For information about ``createEvent``, see `Anatomy of a Device
-Type <../anatomy-of-a-device-type.md>`__.
+Type <http://http://smartthings.readthedocs.org/en/latest/device-type-developers-guide/anatomy-of-a-device-type.html>`__.
 
-As the `Z-Wave Command Reference <z-wave-command-reference.html>`__
+As the `Z-Wave Command Reference <http://build.smartthings.com/zwave.html>`__
 shows, many Z-Wave command classes have multiple versions. By default,
 ``zwave.parse`` will parse a command using the highest version of the
 command class. If the device is sending an earlier version of the
@@ -174,6 +174,3 @@ device is temporarily listening for commands. In addition to creating a
 hidden event, the handler will send a BatteryGet request, wait 1.2
 seconds for a response, and then issue a WakeUpNoMoreInformation command
 to tell the device it can go back to sleep to save battery.
-
-Next Article: `ZigBee Primer
-➞ <../building-zigbee-device-types/zigbee-primer.md>`__

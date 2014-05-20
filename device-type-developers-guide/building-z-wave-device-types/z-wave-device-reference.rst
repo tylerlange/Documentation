@@ -1,3 +1,6 @@
+Reference Z-Wave Device Type
+============================
+
 Reference Z-Wave Deice Type::
 
 	metadata {
