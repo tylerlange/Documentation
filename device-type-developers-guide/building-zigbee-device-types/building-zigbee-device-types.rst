@@ -24,7 +24,7 @@ specifically the Active Power Attribute (0x50B).
 +-------------------------------+-----------------------------+
 | Component                     | Description                 |
 +===============================+=============================+
-|st rattr                       | Smart Things Read Attribute |
+|st rattr                       | SmartThings Read Attribute  |
 +-------------------------------+-----------------------------+
 |0x\$\{device.deviceNetworkId\}	| Device Network ID           |
 +-------------------------------+-----------------------------+
@@ -54,62 +54,23 @@ we are using is formatted in an Unsigned 16-bit integer (0x21) with the
 payload being in 1/10th of a second. In this case the payload ({1400})
 translates to 2 seconds.
 
-.. raw:: html
-
-   <table>
-       <tr>
-           <td>
-
-**st wattr**
-
-.. raw:: html
-
-   </td>
-           <td>
-
-Smart Things Write Attribute
-
-.. raw:: html
-
-   </td>
-       </tr>
-       
-
-::
-
-    <tr>
-        <td>**0x${device.deviceNetworkId}**</td>
-        <td>Device Network ID</td>
-    </tr>
-
-    <tr>
-        <td>**1**</td>
-        <td>Endpoint Id</td>
-    </tr>
-
-    <tr>
-        <td>**8**</td>
-        <td>Cluster</td>
-    </tr>
-
-    <tr>
-        <td>**10**</td>
-        <td>Attribute Set</td>
-    </tr>
-
-    <tr>
-        <td>**21**</td>
-        <td>Data Type</td>
-    </tr>
-
-    <tr>
-        <td>**{1400}**</td>
-        <td>Payload</td>
-    </tr>
-
-.. raw:: html
-
-   </table>
++-------------------------------+-----------------------------+
+| Component                     | Description                 |
++===============================+=============================+
+|st wattr                       | SmartThings Write Attribute |
++-------------------------------+-----------------------------+
+|0x${device.deviceNetworkId}    |Device Network ID            |
++-------------------------------+-----------------------------+
+|1                              |Endpoint Id                  |
++-------------------------------+-----------------------------+
+|8                              |Cluster                      |
++-------------------------------+-----------------------------+
+|10                             |Attribute Set                |
++-------------------------------+-----------------------------+
+|21                             |Data Type                    |
++-------------------------------+-----------------------------+
+|{1400}                         |Payload                      |
++-------------------------------+-----------------------------+
 
 Command
 -------
@@ -128,57 +89,21 @@ send the command to turn on (1). This commands has no payload, so there
 is nothing within the payload brackets. Even though there is no payload,
 the empty brackets are still required.
 
-.. raw:: html
-
-   <table>
-       <tr>
-           <td>
-
-**stcmd**
-
-.. raw:: html
-
-   </td>
-           <td>
-
-Smart Things Command
-
-.. raw:: html
-
-   </td>
-       </tr>
-       
-
-::
-
-    <tr>
-        <td>**0x${device.deviceNetworkId}**</td>
-        <td>Device Network ID</td>
-    </tr>
-
-    <tr>
-        <td>**1**</td>
-        <td>Endpoint Id</td>
-    </tr>
-
-    <tr>
-        <td>**6**</td>
-        <td>Cluster</td>
-    </tr>
-
-    <tr>
-        <td>**1**</td>
-        <td>Command</td>
-    </tr>
-
-    <tr>
-        <td>**{}**</td>
-        <td>Payload</td>
-    </tr>
-
-.. raw:: html
-
-   </table>
++-------------------------------+-----------------------------+
+| Component                     | Description                 |
++===============================+=============================+
+|st cmd                         |SmartThings Command         |
++-------------------------------+-----------------------------+
+|0x${device.deviceNetworkId}    |Device Network ID            |
++-------------------------------+-----------------------------+
+|1                              |Endpoint Id                  |
++-------------------------------+-----------------------------+
+|6                              |Cluster                      |
++-------------------------------+-----------------------------+
+|1                              |Command                      |
++-------------------------------+-----------------------------+
+|{}                             |Payload                      |
++-------------------------------+-----------------------------+
 
 Zdo Bind
 --------
@@ -201,57 +126,21 @@ message contains the hub's ZigBee id which is set as the location for
 the device to send callback messages to. Note that not at all devices
 support binding for events.
 
-.. raw:: html
-
-   <table>
-       <tr>
-           <td>
-
-**zdo bind**
-
-.. raw:: html
-
-   </td>
-           <td>
-
-Smart Things Command
-
-.. raw:: html
-
-   </td>
-       </tr>
-       
-
-::
-
-    <tr>
-        <td>**0x${device.deviceNetworkId}**</td>
-        <td>Device Network ID</td>
-    </tr>
-
-    <tr>
-        <td>**1**</td>
-        <td>Source Endpoint</td>
-    </tr>
-
-    <tr>
-        <td>**1**</td>
-        <td>Destination Endpoint</td>
-    </tr>
-
-    <tr>
-        <td>**0x0006**</td>
-        <td>Cluster</td>
-    </tr>
-
-    <tr>
-        <td>**{${device.zigbeeId}}{}**</td>
-        <td>ZigBee ID ("IEEE Id")</td>
-    </tr>
-
-.. raw:: html
-
-   </table>
++-------------------------------+-----------------------------+
+| Component                     | Description                 |
++===============================+=============================+
+|zdo bind                       |SmartThings Command          |
++-------------------------------+-----------------------------+
+|0x${device.deviceNetworkId}    |Device Network ID            |
++-------------------------------+-----------------------------+
+|1                              |Source Endpoint              |
++-------------------------------+-----------------------------+
+|1                              |Destination Endpoint         |
++-------------------------------+-----------------------------+
+|0x0006                         |Cluster                      |
++-------------------------------+-----------------------------+
+|{${device.zigbeeId}}{}         |ZigBee ID ("IEEE Id")        |
++-------------------------------+-----------------------------+
 
 ZigBee Utilities
 ----------------
@@ -260,5 +149,3 @@ In order to work with ZigBee you will need to use the ZigBee Cluster
 Library extensively to look up the proper values to send back and forth
 to your device. You can request a download of that document
 `here <http://www.zigbee.org/Specifications/ZigBee/download.aspx>`__.
-
-Next Article: `Device Type Examples ➞ <../examples/index.md>`__

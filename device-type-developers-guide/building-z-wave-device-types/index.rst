@@ -7,3 +7,4 @@ Building Z-Wave Device Types
    z-wave-primer
    building-z-wave-device-types
    z-wave-device-reference
+

@@ -9,3 +9,4 @@ Device Type Developer's Guide
    standard-device-type-pattern
    building-z-wave-device-types/index
    building-zigbee-device-types/index
+   example-centralite-switch
