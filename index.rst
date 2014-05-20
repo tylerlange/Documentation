@@ -39,6 +39,14 @@ Cloud-Connected & LAN-Connected Device Type Developer's Guide
 	
 	cloud-and-lan-connected-device-types-developers-guide/index
 
+SmartApp Web Services Developer's Guide
+---------------------------------------
+
+.. toctree::
+	:maxdepth: 3
+	
+	smartapp-web-services-developers-guide/index
+
 Search
 ======
 
