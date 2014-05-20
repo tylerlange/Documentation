@@ -1,6 +1,4 @@
-::
-
-metadata {
+``metadata {
 	definition (name: "Z-Wave Device Reference", author: "SmartThings") {
 		capability "Actuator"
 		capability "Switch"
@@ -367,6 +365,4 @@ def configure() {
 		// Make sure sleepy battery-powered sensors send their WakeUpNotifications to the hub every 4 hours:
 		zwave.wakeUpV1.wakeUpIntervalSet(seconds:4 * 3600, nodeid:zwaveHubNodeId).format(),
 	])
-}
-
-::
+}``
