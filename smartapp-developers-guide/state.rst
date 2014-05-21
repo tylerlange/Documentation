@@ -56,6 +56,3 @@ way to deal with parsing a date string after it comes back from state.
 
 You could also just store the time in milliseconds using an epoch
 timestamp.
-
-Next Article: `SmartThings Sandbox Groovy Limitations
-➞ <smartthings-sandbox-groovy-limitations.md>`__

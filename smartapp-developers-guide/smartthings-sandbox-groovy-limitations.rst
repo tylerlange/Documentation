@@ -46,6 +46,3 @@ Here are a few other things you can't do within your SmartApps.
    called pause) TODO Link Method
 -  Create and use new threads
 -  Use System level methods, such as System.out
-
-Next Article: `Simple Event Handler SmartApps
-➞ <simple-event-handler-smartapps.md>`__

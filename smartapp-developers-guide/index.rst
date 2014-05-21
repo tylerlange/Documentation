@@ -5,6 +5,7 @@ SmartApp Developer's Guide
    :maxdepth: 3
                
    anatomy-and-life-cycle-of-a-smartapp
+   submitting-smartapps-for-publication
    preferences-and-settings
    state
    smartthings-sanbox-groovy-limitations
