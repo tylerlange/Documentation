@@ -1,4 +1,4 @@
-Smart Things Architecture
+SmartThings Architecture
 =========================
 
 .. TODO: I think we need a nicer looking picture. (Jesse O'Neill-Oine)
