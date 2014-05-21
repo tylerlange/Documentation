@@ -1,4 +1,4 @@
-Smart Things Important Concepts
+SmartThings Important Concepts
 ===============================
 
 Within the SmartThings platform, there are three different “containers”
